@@ -17,6 +17,6 @@ public class App
         System.out.println( "Nachricht eingeben:" );
 	Scanner ein= new Scanner(System.in);
 	String einstr= ein.next();
-	System.out.println(einstr);
+	System.out.println("Nachricht: "+einstr);
     }
 }
